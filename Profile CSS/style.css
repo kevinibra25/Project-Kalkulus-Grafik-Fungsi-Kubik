@@ -1,0 +1,73 @@
+/* Profile Akbar */
+.profile-akbar{
+    border-radius: 20px;
+    border-style: solid;
+    float: left;
+    text-align: center;
+    background-color: aliceblue;
+}
+.gambar-akbar{
+    border-style: solid;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, black , blue);
+}
+.logo-akbar{
+  border-style: solid;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.logo-akbar a{
+    color: white;
+}
+/* Profile Akbar */
+
+/* Profile Nabil */
+.profile-nabil{
+    border-style: solid;
+    border-radius: 20px;
+    float: right;
+    text-align: center;
+    background-color: aliceblue;
+}
+.gambar-nabil{
+    border-style: solid;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, black, red);
+}
+.logo-nabil{
+    border-style: solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.logo-nabil a{
+    color: white;
+}
+/* profile nabil */
+
+/* profile kevin */
+.profile-kevin{
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    
+}
+.gambar-kevin{
+    border-style: solid;
+    background-image: linear-gradient(to right, black, blueviolet);
+    border-radius: 20px;
+}
+.logo-kevin{
+    border-style: solid ;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.logo-kevin a{
+    color: white;
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: white;
+    min-height: 100vh;
+}
+.kalkulator-kubik{
+    text-align: center;
+    padding: 7rem;
+    border-style: solid;
+    min-height: 100vh;
+    
+}

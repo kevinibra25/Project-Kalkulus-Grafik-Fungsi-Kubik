@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: white;
+    min-height: 200vh;
+}
+.isi-materi{
+    margin-left: 20px;
+    padding: 7rem;
+}
+.isi-materi h1{
+    text-align: center;
+}
+.isi-materi code{
+    color: blue;
+}
+.gambar-integral{
+    float: right;
+    padding: 2rem;
+}
+.gif{
+   float: right;
+   padding: 20px;
+   
+}
+/* materi 2 */
+
+.materi-2{
+    margin-top: 50px;
+
+}
+.gif-2{
+    float: right;
+    padding: 20px;
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Kalkulus</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/817f72ffce.js" crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- Font Style -->
+
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Aos -->
+    <!-- Kalkulator kubik grafik -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Project<span>Kalkulus.</span></a>
+
+        <div class="navbar-atas">
+            <a href="#home"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="#profile"><i class="fa-solid fa-user"></i> Profile</a>
+            <a href="#about"><i class="fa-solid fa-code"></i> About</a>
+            <a href="#contact"><i class="fa-solid fa-phone"></i> Contact</a>
+        </div>
+    </nav>
+
+    <!-- section Home -->
+    <section class="isi-home" id="home">
+        <main class="awalan">
+            <h1>Selamat Datang Di Project<span>Kalkulus.</span> Kami</h1><br>
+            <p>Kita Membuat kalkulator biasa dan di web ini juga ada materi tentang <span>Fungsi Kubik.</span>
+                Anda juga bisa melihat - lihat ada apa saja di Web ini. Terimakasih </p><br>
+                <a href="#materi" class="materi" >Materi</a><br>
+                <a href="#kalkulator" class="kalkulator" >Kalkulator</a><br>
+                
+        </main>
+    </section>
+    <!-- section Home -->
+    
+    <!-- Profile Start-->
+    <section id="profile" class="profile">
+        <link rel="stylesheet" href="Profile CSS\style.css">
+        <h2 class="gerak" data-aos="zoom-in-up" data-aos-duration="2000" >Profile <span>Kami</span></h2>
+       <!-- Profile Akbar -->
+        <div class="profile-akbar" data-aos="fade-right" data-aos-duration="2000" 
+        data-aos-delay="1400">
+            <div class="gambar-akbar">
+                <img src="akbar buled.png" alt="akbar" width="200px" >
+            </div>
+            <div class="isi-akbar">
+                <h3>Akbar Hidayatullah</h3>
+                <p>Mahasiswa Informatika Universitas Siliwangi</p>
+                <p>NPM 237006083</p>
+                <P>" P, Ngusep "</P>
+            </div>
+                <div class="logo-akbar">
+                <a href="https://instagram.com/akbarhidayatt_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="ig-akbar" ><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100012726015989" class="fb-akbar"><i class="fa-brands fa-facebook"></i></a>
+            
+            </div>
+        </div>
+        <!-- Profile Akbar End -->
+
+        <!-- Profile Nabil -->
+        <div class="profile-nabil" data-aos="fade-left" data-aos-duration="2000" 
+        data-aos-delay="1400">
+            <div class="gambar-nabil">
+                <img src="nabil buled.png" alt="nabil" width="200px" >
+            </div>
+            <div class="isi-nabil">
+                <h3>Nabil Muflih Wardana</h3>
+                <p>Mahasiswa Informatika Universitas Siliwangi</p>
+                <p>NPM 237006077</p>
+                <P>" Cukup 1 Tidak Lebih "</P>
+            </div>
+            <div class="logo-nabil">
+                <a href="https://instagram.com/nabilmuflih__?igshid=NzZlODBkYWE4Ng==" class="ig-nabil"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/nabil.nabilmuflihwardana?mibextid=ZbWKwL" class="fb-nabil"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+        <!-- Profile Nabil End-->
+
+        <!-- Profile Kevin -->
+        <div class="profile-kevin" data-aos="fade-down" data-aos-duration="2000">
+            <div class="gambar-kevin">
+                <img src="kevin buled.png" alt="kecin" width="200px">
+            </div>
+            <div class="isi-kevin"></div>
+            <h3>Kevin Ibrahimovic</h3>
+                <p>Mahasiswa Informatika Universitas Siliwangi</p>
+                <p>NPM 237006073</p>
+                <P>" 1 Tidak Cukup "</P>
+            <div class="logo-kevin">
+                <a href="https://instagram.com/kvin.ibra?igshid=MmVlMjlkMTBhMg==" class="ig-kevin"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/kevin.ibrahim.752?mibextid=ZbWKwL" class="fb-kevin"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Profile End -->
+     <!-- Materi Isi -->
+     <section class="isi-materi" id="materi">
+        <main class="awalan-materi">
+            <link rel="stylesheet" href="materi css\style.css">
+          <img class="gif" src="Mathematics.gif" alt="gif" width="400px">
+            <h1>Materi Fungsi Kubik</h1><br>
+            <h2>Pengertian Fungsi Kubik</h2>
+            <p>Fungsi kubik adalah fungsi polinomial berderajat 3 dan berbentuk <br><code>f(x) = ax^3 + bx^2 + cx + d, 
+                dengan a, b, c, dan d adalah bilangan real dan a ≠ 0. Fungsi kubik dasar fungsi (yang juga dikenal sebagai fungsi kubus induk) adalah f(x) = x^3 . 
+            </code>
+            </p><br>
+            <p>Karena fungsi kubik melibatkan polinomial berderajat ganjil, maka fungsi tersebut mempunyai paling sedikit satu akar real.</p>
+         <p>Misalnya, hanya ada satu bilangan real yang memenuhi <code>x^3 = 0 (yaitu x = 0)</code> sehingga fungsi kubik <code>f(x) = x^3</code></p><br>
+    
+        <div class="contoh-soal">
+        <h3>Contoh Soal</h3><br>
+        <p>f(x)=x3−2x2+3x−5<br>
+            jika x=2x=2. <br>
+            Pembahasan jawaban: <br>
+            f(2)=(2)3−2(2)2+3(2)−5 <br>
+            f(2)=8−8+6−5<br>
+            f(2)=1 <br><br>
+            Jadi, f(2)=1 <br></p>
+        </div>
+    </main>
+    
+        </div>
+        </main>
+    </section>
+    <!-- Materi End -->
+
+   <!-- Kalkulator -->
+    <section class="kalkulator-kubik" id="kalkulator">
+        <link rel="stylesheet" href="kalkulator.css\style.css">
+        <h1>Grafik Kubik</h1>
+
+        
+        <label for="a">a:</label>
+        <input type="text" id="a" placeholder="Masukkan nilai a" required>
+    
+        <label for="b">b:</label>
+        <input type="text" id="b" placeholder="Masukkan nilai b" required>
+    
+        <label for="c">c:</label>
+        <input type="text" id="c" placeholder="Masukkan nilai c" required>
+
+        <label for="d">d:</label>
+        <input type="text" id="d" placeholder="Masukkan nilai d" required>
+    
+        <button onclick="updatePlot()">Kirim</button>
+    
+        <div id="plot"></div>
+    
+        <script>
+            // Funcion na
+            function updatePlot() {
+                // Nilai
+                var a = parseFloat(document.getElementById("a").value);
+                var b = parseFloat(document.getElementById("b").value);
+                var c = parseFloat(document.getElementById("c").value);
+                var d = parseFloat(document.getElementById("d").value);
+    
+                
+                var xValues = [];
+                for (var i = -10; i <= 10; i += 0.1) {
+                    xValues.push(i);
+                }
+    
+                // kalkulator value kubik
+                var yValues = xValues.map(function(x) {
+                    return a * Math.pow(x, 3) + b * Math.pow(x, 2) + c * x + d;
+                });
+    
+                // plot
+                var trace = {
+                    x: xValues,
+                    y: yValues,
+                    type: 'scatter',
+                    mode: 'lines',
+                    name: 'Cubic Function'
+                };
+    
+                var layout = {
+                    title: `Cubic Function: ${a}x^3 + ${b}x^2 + ${c}x + ${d}`,
+                    xaxis: {
+                        title: 'x'
+                    },
+                    yaxis: {
+                        title: 'y'
+                    }
+                };
+    
+                Plotly.newPlot('plot', [trace], layout);
+            }
+        </script>
+
+    </section>
+ 
+<div id="result"></div>
+  <!-- About Start -->
+  <section id="about" class="about" >
+    <link rel="stylesheet" href="About Css\style.css">
+    <h2 class="judul-pertama" data-aos="zoom-in-up" data-aos-duration="2000"> About </h2>
+    <div class="paragraf-about" data-aos="flip-up" data-aos="flip-up">
+    <p>Kami menciptakan web ini dengan tujuan untuk memenuhi tugas UAS mata kuliah Kalkulus. <br>
+        Dengan fokus pada pembuatan kalkulator yang bisa menampilkan Grafik Fungsi Kubik, Materi Fungsi Kubik <br>
+        kami berkomitmen untuk menjadi sumber terpercaya bagi pengguna kami yang membutuhkan penyelesaian tentang soal Grafik Fungsi Kubik. <br> 
+        Kami yang selalu bersemangat membuat web ini agar bisa dipake oleh orang-orang. <br>Serta, 
+       kami berharap agar web ini dapat bermanfaaat bagi banyak orang </p>
+    </div>
+    <div class="logo-bahasa">
+    <h2 data-aos="zoom-in-up" data-aos-duration="2000">Bahasa Yang DiGunakan</h2>
+    <a href="#" class="js" data-aos="fade-right" data-aos-duration="2000"><i class="fa-brands fa-js"></i></a>
+    <a href="#" class="html" data-aos="flip-up" data-aos-duration="2000" ><i class="fa-brands fa-html5"></i></a>
+    <a href="#" class="css" data-aos="fade-left" data-aos-duration="2000" ><i class="fa-brands fa-css3-alt"></i></a>
+</div>
+</section>
+<!-- About End -->
+
+<!-- Contact Start -->
+<section id="contact" class="contact">
+    <link rel="stylesheet" href="contact.css">
+
+    <form class="kontak" action=https://formsubmit.co/el/jifaxu >
+        <h2 class="h2-contact">Contact Me</h2>
+        
+        <label for="nama-kamu">Nama:</label>
+        <input class="input-1" type="teks" id="nama-kamu" name="nama-kamu" required>
+
+        <label for="email">Email:</label>
+        <input class="input-2" type="email" id="email" name="email" required>
+
+        <label for="pesan-kirim">Pesan:</label>
+        <textarea id="pesan-kirim" name="pesan-kirim" rows="4" required></textarea>
+
+        <button class="button-1" type="submit">Kirim Pesan</button>
+
+    </form>
+</section>
+<!-- Contact End -->
+
+<!-- Java Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true,
+  });
+</script>
+<!-- JavaScript -->
+<script src="JS\script.js"></script>
+   
+</body> 
+</html>
